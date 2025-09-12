@@ -1,22 +1,14 @@
-
-<!DOCTYPE HTML>
-<!-- saved from url=(0026)https://phet.colorado.edu/ -->
-<html lang="tr>
+<!DOCTYPE html>
+<html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="phet-sim-level" content="production">
+  <meta charset="UTF-8">
+  <title> MEKANİK ENERJİNİN KORUNUMU</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- metadata for Open Graph protocol -->
-  <meta property="og:title" content="&#8234;Circuit Construction Kit: DC - Virtual Lab&#8236;">
-  <meta property="og:type" content="phet:simulation">
-  <meta property="og:url" content="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_en.html">
-  <meta property="og:image" content="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab-600.png">
-
-  <title>&#8234;Circuit Construction Kit: DC - Virtual Lab&#8236;</title>
 </head>
+<body>
+
+  <div id="bottom-bar"></div>
 <!--
 ‪Circuit Construction Kit: DC - Virtual Lab‬ 1.4.2
 Copyright 2002-2025, Regents of the University of Colorado
@@ -35,6 +27,26 @@ University of Colorado. Contact phethelp@colorado.edu regarding licensing.
 -->
 <!-- body is only made black for the loading phase so that the splash screen is black -->
 <body style="background-color:black;">
+
+<style>
+#bottom-bar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 7%;
+  background-color: black;
+}
+
+ /* Mobil cihazlar için yükseklik %2 */
+    @media (max-width: 768px) {
+      #bottom-bar {
+        height: 2%;  /* Mobilde %2 */
+      }
+    }
+</style>
+<div id="bottom-bar"></div>
+
 <script>window.phet={};window.phet.chipper={};
 // This simulation uses following third-party resources.  The following code block describes each resource
 // and provides its licensing information.  The START and END tags make it easy to automatically parse
